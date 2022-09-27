@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>thao-shop</title>
+<meta charset="utf-8">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Navbar--->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://scontent.fhan18-1.fna.fbcdn.net/v/t39.30808-6/296865369_1041392350081463_6122564786952369449_n.jpg?stp=cp6_dst-jpg_p526x296&_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=x8OFLsDOLh4AX_9CieF&_nc_ht=scontent.fhan18-1.fna&oh=00_AT-eHbxY9N-byD_PJt4s5d-oM40qw9dZf2ERCZ0TyNayDw&oe=633796F8" alt="Bootstrap" height="34">
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://www.facebook.com/profile.php?id=100026321233000">"Thảo Phương"</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Giá bán</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Thể loại ảnh
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Ảnh đầm sen</a></li>
+                  <li><a class="dropdown-item" href="#">Ảnh lễ hội</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Váy bà ba</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Hết hàng</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Nội dung tìm kiếm" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Tìm</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- end navbar -->
+<!-- page content -->
+<div class="container">
+    <div class="row">
+        <!-- menu left -->
+<div class="col-lg-3">
+    <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action ">
+          Thời trang nam
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">Thời trang nữ</a>
+        <a href="#" class="list-group-item list-group-item-action">Dành cho bé</a>
+        
+      </div>
+</div>
+<!-- end menu left -->
+<!-- slider and product -->
+<div class="col-lg-9 bg-warning">
+<!-- Slider -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://scontent.fhan18-1.fna.fbcdn.net/v/t39.30808-6/296170087_1041392356748129_4834805639836951569_n.jpg?stp=cp6_dst-jpg&_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=9LeT7-_SCV8AX_2sJmo&_nc_ht=scontent.fhan18-1.fna&oh=00_AT_LI2E_1_v67YUIj3FTtB7w__2hbnlJHYsZNvOxcUNV2Q&oe=6336AE6E"  class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://scontent.fhan18-1.fna.fbcdn.net/v/t39.30808-6/273034619_928787271341972_8048140929703802167_n.jpg?stp=dst-jpg_p720x720&_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=owhSVcxbGkkAX_xPQE1&_nc_ht=scontent.fhan18-1.fna&oh=00_AT-UnumbdK0Fm5hUJLccEojQlJw-P5P57nfBe5gfz8Y2MA&oe=6336AE59" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+       
+        <img src="https://scontent.fhan18-1.fna.fbcdn.net/v/t39.30808-6/296865369_1041392350081463_6122564786952369449_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=x8OFLsDOLh4AX_9CieF&_nc_ht=scontent.fhan18-1.fna&oh=00_AT_6i_YFyRdWc6sy9yKUGte9T4DiwwOFGxpnNFlTaCyBUg&oe=633796F8"  class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!-- end slider -->
+<!-- product -->
+<div class="row">
+    <div class="col-lg-4 co-md-6 mb-4">
+        
+        <img src="https://scontent.fhan18-1.fna.fbcdn.net/v/t39.30808-6/296865369_1041392350081463_6122564786952369449_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=x8OFLsDOLh4AX_9CieF&_nc_ht=scontent.fhan18-1.fna&oh=00_AT_6i_YFyRdWc6sy9yKUGte9T4DiwwOFGxpnNFlTaCyBUg&oe=633796F8" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h4 class="card-title">
+                <a href="#">Áo dài</a>
+            </h4>
+          <h5 class="card-title">50.000 đồng</h5>
+          <p class="card-text">Giá bán ảnh áo dài nữ Việt Nam.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+       
+      <div class="card-footer">
+          <small class="text-muted">&#9733;&#9733;&#9733;&#9734</small>
+
+</div>
+<!-- end product -->
+
+    <!-- end product -->
+    </div>
+        </div>
+        <div class="row">
+            <div class="card" style="width: 18rem;">
+                <img src="https://scontent.fhan18-1.fna.fbcdn.net/v/t39.30808-6/273435434_928786968008669_7577879678679260080_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=4cTBSacZI2wAX9NCHuO&_nc_ht=scontent.fhan18-1.fna&oh=00_AT80C24U_wJ-2mMfd9fFtR9WDZVMBas54SpH0ZWUufSrOw&oe=6337837A" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Áo dài</a>
+                    </h4>
+                  <h5 class="card-title">500.000 đồng</h5>
+                  <p class="card-text">Giá bán ảnh áo dài nữ Việt Nam.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+               
+              <div class="card-footer">
+                  <small class="text-muted">&#9733;&#9733;&#9733;&#9734</small>
+        
+        </div>
+        <!-- end product -->
+        <div class="row">
+            <div class="card" style="width: 18rem;">
+                <img src="https://scontent.fhan18-1.fna.fbcdn.net/v/t1.15752-9/301869039_369380445296632_2377236363043600012_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=KCTm15zavUEAX9Lwb8V&_nc_ht=scontent.fhan18-1.fna&oh=03_AVJUT2XbkITlNy_2FTaRlt31vrY4lOx_8YfXCDxgPKMzQQ&oe=63584D95" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Tôi Hà Trần đây</a>
+                    </h4>
+                  <h5 class="card-title">5000đồng/1 đêm</h5>
+                  <p class="card-text">Giá bán hotboy hay còn gọi là master Japans:</p>
+                  <a href="#" class="btn btn-primary">Mặt hàng này vẫn còn ae bấm vào check thông tin nhé:</a>
+               
+              <div class="card-footer">
+                  <small class="text-muted">&#9733;&#9733;&#9733;&#9734</small>
+        
+        </div>
+        <!-- end product -->
+        
+            <!-- end product -->
+            </div>
+                </div>
+            <!-- end product -->
+            </div>
+                </div>
+</div>
+<!-- end page content -->
+</body>
+</html>
